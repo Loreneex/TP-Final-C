@@ -1,0 +1,18 @@
+orden;Cliente;Importe;Tipo de Credito;dia;mes;a¤o;Nro, Cuotas;Importe Cuota;IVA;Total Cuota
+1;Juan Lopez;3400;Con Garantia;25;6;2022;2;1700;357;2059
+2;Maria Sosa;2500;A sola firma;5;8;2022;3;833,3333333;175;1011,333333
+3;Jose Rosas;750;A sola firma;8;7;2022;5;150;31,5;186,5
+4;Mario Garcia;1200;A sola firma;21;6;2022;5;240;50,4;295,4
+5;Cecilia Perez;4500;A sola firma;9;7;2022;3;1500;315;1818
+6;Laura Soria;3850;Con Garantia;19;7;2022;4;962,5;202,125;1168,625
+7;Juana Alvez;2600;A sola firma;12;7;2022;2;1300;273;1575
+8;Walter Miranda;1750;Con Garantia;24;7;2022;4;437,5;91,875;533,375
+9;Mariana Estevez;1400;Con Garantia;29;7;2022;5;280;58,8;343,8
+10;Pablo Quintana;800;Con Garantia;21;6;2022;3;266,6666667;56;325,6666667
+11;Diana Saravia;1200;Con Garantia;9;7;2022;3;400;84;487
+12;Fernanda Castro;3600;Con Garantia;19;7;2022;4;900;189;1093
+13;Monica Pe¤a;2100;Con Garantia;12;7;2022;5;420;88,2;513,2
+14;Mauricio Gestido;6100;Con Garantia;24;7;2022;3;2033,333333;427;2463,333333
+15;Marco Perea;5050;A sola firma;24;7;2022;5;1010;212,1;1227,1
+16;Leticia Costa;4750;A sola firma;8;8;2022;4;1187,5;249,375;1440,875
+17;Esteban DaSilva;5700;A sola firma;21;7;2022;3;1900;399;2302
