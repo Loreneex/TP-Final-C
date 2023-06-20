@@ -1,0 +1,98 @@
+Manual de Usuario - Sistema de Gestión de Créditos
+
+Autor: Lorenzo GRAIZZARO
+Fecha de entrega: 20/6/2023
+
+	Índice:
+	1. Introducción
+	2. Requerimientos del sistema
+	3. Uso del programa
+		3.1. Menú principal
+		3.2. Control de errores
+		3.3. Validación de datos
+		3.4. Operaciones disponibles
+	4. Pautas de ingreso de datos
+	5. Consultas y modificaciones
+
+1. Introducción:
+El Sistema de Gestión de Créditos es una aplicación diseñada para la gestión de préstamos y clientes de una financiera. 
+Permite registrar, consultar, modificar y eliminar datos relacionados con los créditos otorgados. 
+El programa funciona con un archivo de texto y un archivo binario para almacenar la información de manera eficiente.
+
+2. Requerimientos del sistema:
+Sistema operativo: Windows (en linux o macOS puede generar problemas el uso de la funcion gets por un problema de seguridad).
+Compilador de C compatible con ANSI C.
+Espacio en disco suficiente para almacenar los archivos de datos.
+
+3. Uso del programa:
+3.1. Menú principal:
+Para observar correctamente las grillas presione la tecla "F11" o maximize el tamaño de la consola :).
+Al ejecutar el programa, se mostrará un menú principal que presenta las diferentes operaciones disponibles. 
+Cada opción del menú está identificada claramente para facilitar la selección de la operación deseada. 
+Utiliza las teclas numéricas o las indicaciones proporcionadas para seleccionar una opción.
+
+3.2. Control de errores:
+El programa ha sido diseñado para controlar diferentes errores que puedan ocurrir durante la ejecución. 
+Si ingresaste una opción inválida o se produjo un error, el programa mostrará un mensaje explicando el problema. 
+Sigue las instrucciones en pantalla para corregir el error y continuar con las operaciones.
+
+3.3. Validación de datos:
+El programa realiza validaciones de datos para garantizar la integridad y consistencia de la información ingresada. 
+Si intentas ingresar datos inválidos o fuera de los límites establecidos, recibirás mensajes de error indicando la corrección necesaria. 
+Sigue las instrucciones proporcionadas para ingresar los datos correctamente.
+
+3.4. Operaciones disponibles:
+El programa ofrece las siguientes operaciones:
+
+	A: Listar txt: muestra por pantalla el contenido del archivo de texto "prestamos.csv". 
+	Los valores numéricos se presentan con dos decimales en todos los casos.
+
+	B: Crear: crea un nuevo archivo binario "creditos.dat".
+
+	C: Migrar: migra los datos del archivo de texto "prestamos.csv" al archivo binario "creditos.dat", 
+	realizando las transformaciones y ajustes necesarios.
+
+	D: Listar dat: muestra por pantalla el contenido del archivo binario "creditos.dat" con opciones para listar
+	todos los registros o filtrar por activos e ingresar tipo de crédito o rango de tiempo.
+
+	E: Alta: permite registrar nuevos clientes en el archivo, considerando las validaciones y ajustes necesarios.
+
+	F: Buscar: busca y muestra los datos de un cliente por número de orden o apellido.
+
+	G: Modificar: permite modificar el importe y tipo de crédito de un cliente buscándolo por número de orden.
+
+	H: Baja lógica: realiza una baja lógica de un cliente, mostrando los datos antes de confirmar la operación.
+
+	I: Baja física: genera un nuevo archivo de texto con los datos de los clientes dados de baja 
+	y marca los registros correspondientes en el archivo original como inactivos.
+
+	j: Listar xyz: muestra por pantalla el contenido del archivo de texto generado en la operación de baja física.
+
+	k: Limpiar la consola: limpia la consola y deja el menu impreso al comienzo del programa.
+
+	L: Cerrar programa: cierra el programa.
+
+4. Pautas de ingreso de datos:
+Al ingresar datos en el programa, ten en cuenta las siguientes pautas:
+
+Nombres y apellidos: ingresa los nombres y apellidos en formato adecuado,
+respetando las mayúsculas y minúsculas según corresponda.
+
+Tipo de crédito: selecciona la opción correcta según las indicaciones proporcionadas, evitando errores de tipeo.
+
+Fechas: ingresa las fechas en formato dd/mm/aaaa y asegúrate de que sean válidas. 
+El programa realizará las validaciones correspondientes.
+
+Números y decimales: ingresa números enteros o decimales según las indicaciones y límites establecidos. 
+Presta atención a los mensajes de error en caso de ingreso incorrecto.
+
+5. Consultas y modificaciones:
+Para realizar consultas o modificaciones en el programa, 
+sigue las instrucciones proporcionadas en las opciones correspondientes del menú principal. 
+Utiliza los números de orden o apellidos según se indique y sigue las indicaciones en pantalla.
+El programa mostrará los resultados de las consultas o las confirmaciones de las modificaciones 
+antes de aplicar los cambios al de versiones.
+
+Atentamente.
+
+Lorenzo GRAIZZARO.
